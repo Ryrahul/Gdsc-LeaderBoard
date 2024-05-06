@@ -115,7 +115,7 @@
               <th scope="col"><b>Redemption Status</b></th>
               <th scope="col"><b>Course Completed</b></th>
               <th scope="col"><b>Skill Badges Completed</b></th>
-              <!-- <th scope="col"><b>GenAI Completed</b></th> -->
+              <th scope="col"><b>GenAI Completed</b></th>
               <th scope="col"><b>Total Completion</b></th>
             </tr>
           </thead>
@@ -200,7 +200,8 @@
                          }</td>
                          <td>${d["# of Courses Completed"]}</td>
                          <td>${d["# of Skill Badges Completed"]}</td>
-                         <td>${d["Total Completions of both Pathways"]}</td>
+                         <td>${d['# of GenAI Game Completed']}</td>
+                          <td>${d["Total Completions of both Pathways"]}</td>
                     </tr>
                        `;
             });
